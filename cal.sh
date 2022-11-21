@@ -24,8 +24,7 @@ read -p "Enter your first number : " NUM1
 read -p "Enter your second number : " NUM2
 
 
-if ["$UINPUT" == 1];
-then
+if [ "$STUFF" = "" ]; then
 	RES=NUM1+NUM2
 	echo "The Sum of two number is $RES";
 else
